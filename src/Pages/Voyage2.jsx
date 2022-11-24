@@ -6,22 +6,15 @@ const Voyage2 = () => {
   return (
     <div className="page1">
       <div className="planet1">
-        <h2>Mars</h2>
+        <h2>Moon</h2>
         <img src={Mars} alt="mars" />
       </div>
       <div className="border"></div>
       <div className="texte1">
-        <h3>Présentation de la planet</h3>
+        <h3>Description of the planet</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab
-          harum nihil, aut ducimus impedit magni cupiditate debitis voluptatum
-          assumenda, officia quia recusandae? Beatae eius nihil, nisi voluptatum
-          culpa laborum?
+        The Moon, or Earth Ib, is the only permanent natural satellite of the planet Earth. It is the fifth largest natural satellite in the Solar System, and the largest of the planetary satellites relative to the size of the planet around which it orbits. It is the second densest satellite in the Solar System after Io, a satellite of Jupiter. 
         </p>
-        <ul>
-          <li>Vent : </li>
-          <li>Temperature :</li>
-        </ul>
         <img src="" alt="" />
       </div>
       <div className="border"></div>

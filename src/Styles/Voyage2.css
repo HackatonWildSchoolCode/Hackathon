@@ -9,7 +9,8 @@
     text-align: center;
     align-items: center;
     background-image: url(./img/space.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page2 h1 {
