@@ -1,12 +1,54 @@
 
+
+
 .page1 {
     width: 100vw;
     height: 100vh;
     background-color: black;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-image: url("./img/actee.jpeg");
 
 }
 
 .page1 h1 {
     color: aliceblue;
+}
+
+.page1 h2 {
+    font-size: 3rem;
+}
+
+.planet1 img {
+    width: 45vw;
+    margin-top: 3vh;
+    margin-bottom: 5VH;
+}
+
+.texte1 {
+    margin: 10vh;
+}
+
+.texte1 h3 {
+    margin-bottom: 10vh;
+}
+
+.texte1 ul {
+    margin-top: 5vh;
+}
+
+
+.activity1 {
+    margin: 10vh;
+}
+
+.activity1 h3 {
+    margin-bottom: 10vh;
+}
+
+.activity1 button {
+    margin-top: 8vh;
 }
