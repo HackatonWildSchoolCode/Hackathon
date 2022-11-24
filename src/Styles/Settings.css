@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;  
     scroll-snap-type: y mandatory;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
 }
 
 ::-webkit-scrollbar {
