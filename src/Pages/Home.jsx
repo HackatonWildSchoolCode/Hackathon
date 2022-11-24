@@ -8,9 +8,6 @@ const Home = () => {
       <div className="space">
         <video src={Space} autoPlay loop muted />
       </div>
-      <div className="slogan">
-        <h3>Keep the lights on in the dark</h3>
-      </div>
     </>
   );
 };
