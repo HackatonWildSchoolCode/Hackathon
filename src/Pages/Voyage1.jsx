@@ -9,7 +9,6 @@ const Voyage1 = () => {
             <div className='planet1'>
                 <h2>Mars</h2>
                 <img src={Mars} alt="mars" />                
-                
             </div>
             <div className='texte1'>
                 <h3>Présentation de la planet</h3>
@@ -18,6 +17,7 @@ const Voyage1 = () => {
                 <li>Temperature :</li></ul>
                 <img src="" alt="" />
             </div>
+            <div className='border'></div>
             <div className='activity1'>
                 <h3>Activité</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae reiciendis quam delectus sed minus modi provident, alias vero iusto ducimus nobis autem cumque obcaecati illo fugit maxime aut laboriosam ratione?</p>

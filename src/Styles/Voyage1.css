@@ -10,8 +10,7 @@
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    background-image: url("./img/actee.jpeg");
-
+    background-image: url(./img/space.jpg);
 }
 
 .page1 h1 {
@@ -23,17 +22,24 @@
 }
 
 .planet1 img {
-    width: 45vw;
+    width: 40vw;
     margin-top: 3vh;
-    margin-bottom: 5VH;
+    margin-bottom: 2VH;
 }
 
+.border {
+    border: 1px solid white;
+    height: 60vh;
+    margin: 2vw;
+
+}
 .texte1 {
     margin: 10vh;
 }
 
 .texte1 h3 {
     margin-bottom: 10vh;
+    font-size: 1.3rem;
 }
 
 .texte1 ul {
@@ -47,6 +53,7 @@
 
 .activity1 h3 {
     margin-bottom: 10vh;
+    font-size: 1.3rem;
 }
 
 .activity1 button {
