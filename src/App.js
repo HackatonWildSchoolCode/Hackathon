@@ -8,8 +8,11 @@ const App = () => {
   return (
     <>
       <Home />
+
       <Voyage1 />
+
       <Voyage2 />
+
       <Voyage3 />
     </>
   );
