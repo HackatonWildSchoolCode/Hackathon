@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../Styles/Settings.css";
 import "../Styles/Voyage3.css";
 import Mars from "../Styles/img/mars.svg";
