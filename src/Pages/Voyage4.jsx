@@ -4,8 +4,21 @@ import "../Styles/Voyage4.css";
 import Sun from "../assets/Soleil.mp4";
 import logo from "../assets/Logo.png";
 import Zoom from "react-reveal/Zoom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Voyage4 = () => {
+  const notify = () =>
+    toast.success("Your vehicle will pick you up at home !", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
   return (
     <div className="page4">
       <img className="logo" src={logo} />
@@ -32,13 +45,23 @@ const Voyage4 = () => {
         <Zoom>
           <h3>Activities</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-            reiciendis quam delectus sed minus modi provident, alias vero iusto
-            ducimus nobis autem cumque obcaecati illo fugit maxime aut
-            laboriosam ratione?
+            You already know about AquaLand, come discover Lavaland! A brand new
+            amusement park.
           </p>
         </Zoom>
-        <button type="button">BOOK NOW</button>
+        <button onClick={notify}>Book Now</button>
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover={false}
+          theme="dark"
+        />
       </div>
     </div>
   );

@@ -60,4 +60,8 @@
 
 .activity1 button {
   margin-top: 8vh;
+  color: black;
+}
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: blue !important;
 }

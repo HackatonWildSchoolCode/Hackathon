@@ -4,8 +4,21 @@ import "../Styles/Voyage3.css";
 import Saturne from "../assets/Saturne.mp4";
 import logo from "../assets/Logo.png";
 import Zoom from "react-reveal/Zoom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Voyage3 = () => {
+  const notify = () =>
+    toast.success("Your vehicle will pick you up at home !", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
   return (
     <div className="page3">
       <img className="logo" src={logo} />
@@ -31,13 +44,24 @@ const Voyage3 = () => {
         <Zoom>
           <h3>Activities</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-            reiciendis quam delectus sed minus modi provident, alias vero iusto
-            ducimus nobis autem cumque obcaecati illo fugit maxime aut
-            laboriosam ratione?
+            Looking for a really cool spot for your team building ? This trip is
+            for you. All-inclusive business trip to get the best work-leisure
+            balance with your team.
           </p>
         </Zoom>
-        <button type="button">BOOK NOW</button>
+        <button onClick={notify}>Book Now</button>
+        <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover={false}
+          theme="dark"
+        />
       </div>
     </div>
   );
