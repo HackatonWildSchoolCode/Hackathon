@@ -31,3 +31,8 @@ h2 {
   right: 2px;
   width: 10vw;
 }
+
+.logo-transport {
+    display: flex;
+    align-items: flex-start;
+}

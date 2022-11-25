@@ -12,7 +12,7 @@
 }
 
 .page4 h1 {
-  color: aliceblue;
+  color: white;
 }
 .page4 h2 {
   font-size: 3rem;
@@ -36,7 +36,6 @@
 .texte4 {
   margin: 10vh;
   padding-top: 15vh;
-  animation: fadeIn 2s;
 }
 
 @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; }}

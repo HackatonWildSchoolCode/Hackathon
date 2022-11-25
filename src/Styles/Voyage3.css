@@ -12,7 +12,7 @@
 }
 
 .page3 h1 {
-  color: aliceblue;
+  color: white;
 }
 .page3 h2 {
   font-size: 3rem;
@@ -36,7 +36,6 @@
 .texte3 {
   margin: 10vh;
   padding-top: 15vh;
-  animation: fadeIn 2s;
 }
 
 .texte3 h3 {
