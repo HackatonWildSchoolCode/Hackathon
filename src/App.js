@@ -5,7 +5,6 @@ import Voyage2 from "./Pages/Voyage2";
 import Voyage3 from "./Pages/Voyage3";
 import Transport from "./Transport/Transport";
 import Voyage4 from "./Pages/Voyage4";
-import logo from "./assets/Logo.png";
 import "./Styles/Settings.css";
 
 
