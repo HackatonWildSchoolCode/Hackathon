@@ -4,15 +4,21 @@ import Voyage1 from "./Pages/Voyage1";
 import Voyage2 from "./Pages/Voyage2";
 import Voyage3 from "./Pages/Voyage3";
 import Transport from "./Transport/Transport";
+import Voyage4 from "./Pages/Voyage4";
+import logo from "./assets/Logo.png";
+
 
 const App = () => {
   return (
     <>
+    <img src={logo} />
       <Home />
       <Voyage1 />
       <Voyage2 />
       <Voyage3 />
+      <Voyage4 />
       <Transport />
+
     </>
   );
 };

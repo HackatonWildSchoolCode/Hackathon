@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: 100%;
   font-family: "Bellefair";
@@ -73,10 +73,16 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 30px;
+  margin-top: 8vh;
+  width: 40vw;
 }
 
-.page-transport .body-text {
+.page-transport .navigation-item-title {
   width: 40vw;
+}
+
+.page-transport .body-text p {
+  width: 30vw;
   letter-spacing: 1px;
   line-height: 22px;
   font-size: 17px;
@@ -95,9 +101,10 @@
   gap: 7vw;
 }
 
-.page-transport .navigation-item-description img {
+.page-transport .technology-image {
   width: 30vw;
   border-radius: 20px;
+  margin-top: 8vh;
 }
 
 /* .page-transport .grid-cell {

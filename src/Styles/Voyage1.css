@@ -1,58 +1,64 @@
 .page1 {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    scroll-snap-align: center;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-    background-image: url(./img/space.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(./img/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page1 h1 {
-    color: aliceblue;
+  color: white;
 }
 
 .page1 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
-.planet1 img {
-    width: 40vw;
-    margin-top: 3vh;
-    margin-bottom: 2VH;
+.planet1 video {
+  width: 40vw;
+  height: 20%;
+  border-radius: 20px;
+  margin-left: 2vw;
+  margin-top: 6vw;
 }
 
-.border {
-    border: 1px solid white;
-    height: 60vh;
-    margin: 2vw;
-
+.page1 .horizontal-border {
+  border-bottom: 2px solid white;
+  width: 28vw;
+  margin-left: 11vw;
+  margin-top: 2vh;
 }
+
 .texte1 {
-    margin: 10vh;
+  margin: 10vh;
+  padding-top: 15vh;
+  animation: fadeIn 2s;
 }
 
 .texte1 h3 {
-    margin-bottom: 10vh;
-    font-size: 1.3rem;
+  margin-bottom: 4vh;
+  font-size: 1.3rem;
 }
 
 .texte1 ul {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
-
 .activity1 {
-    margin: 10vh;
+  margin: 10vh;
+  padding-top: 15vh;
 }
 
 .activity1 h3 {
-    margin-bottom: 10vh;
-    font-size: 1.3rem;
+  margin-bottom: 4vh;
+  font-size: 1.3rem;
 }
 
 .activity1 button {
-    margin-top: 8vh;
+  margin-top: 8vh;
 }

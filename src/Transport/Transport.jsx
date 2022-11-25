@@ -43,13 +43,9 @@ const Transport = () => {
             </div>
             <div className="navigation-item-description">
               <p className="body-text">{technologyInfo.description}</p>
-              <p>{technologyInfo.images.portrait}</p>
-              {/* <img
-                src={require(technologyInfo.images.portrait)}
-                alt="technology"
-              /> */}
             </div>
           </div>
+          <img className="technology-image" src={technologyInfo.images.portrait} alt="technology" />
         </div>
       </div>
     </div>
