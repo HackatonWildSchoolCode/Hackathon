@@ -24,7 +24,7 @@ const Voyage1 = () => {
     <div className="page1">
       <img className="logo" src={logo} />
       <div className="planet1">
-        <h2>Trips to Jupiter</h2>
+        <h2>Dinner on Jupiter</h2>
         <div className="horizontal-border"></div>
         <video src={Jupiter} autoPlay loop muted />
       </div>
